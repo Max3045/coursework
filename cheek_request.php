@@ -7,7 +7,7 @@
     }
     $id=$_GET['id'];
 
-
+        
     $name=$_SESSION['name'];
     $query="SELECT * FROM `request` WHERE `id` = $id";
    // echo $query; die();
